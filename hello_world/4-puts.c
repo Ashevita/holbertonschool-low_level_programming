@@ -1,12 +1,12 @@
 #include <stdio.h>
-int main(void)
 /**
 * main - Entry point
 *
-* Description: 'the program's description'
+* Description: 'the program's print text'
 *
 * Return: Always 0 (Success)
 */
+int main(void)
 {
 
 puts("\"Programming is like building a multilingual puzzle");
