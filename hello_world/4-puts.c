@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(void)
-/* comment */
+/* main - Entry point */
 {
 
 puts("\"Programming is like building a multilingual puzzle");
