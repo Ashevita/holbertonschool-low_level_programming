@@ -12,10 +12,10 @@ int main(void)
 char c;
 char b;
 
-for (c = 'A' ; c <= 'Z' ; c++) {
+for (c = 'a' ; c <= 'z' ; c++) {
 putchar(c);
 }
-for (b = 'a' ; b <= 'z' ; b++) {
+for (b = 'A' ; b <= 'Z' ; b++) {
 
 putchar(b);
 }
