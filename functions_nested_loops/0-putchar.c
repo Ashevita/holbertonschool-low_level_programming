@@ -7,21 +7,21 @@
  * Return: Always 0 (Success)
  */
 
-int _putchar(char c)
+int main(void)
 {
-    putchar('_');
-    putchar('p');
-    putchar('u');
-    putchar('t');
-    putchar('c');
-    putchar('h');
-    putchar('a');
-    putchar('r');
+putchar('_');
+putchar('p');
+putchar('u');
+putchar('t');
+putchar('c');
+putchar('h');
+putchar('a');
+putchar('r');
 
 
-    {
-    }
-    putchar('\n');
+{
+}
+putchar('\n');
 
-    return (0);
+return (0);
 }
