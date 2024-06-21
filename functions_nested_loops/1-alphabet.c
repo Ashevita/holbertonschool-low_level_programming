@@ -1,11 +1,9 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* main - Entry point
+*print_alphabet - prints the alphabet
 *
-* Description: 'the program's description'
-*
-* Return: Always 0 (Success)
+* Description: Prints the alphabet from 'a' to 'z' followed by a newline.
 */
 
 void print_alphabet(void)
