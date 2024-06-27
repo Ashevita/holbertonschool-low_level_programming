@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * _puts - puts
- * @str: cariable
+ * print_rev - puts
+ * @s: cariable
  */
 
 void print_rev(char *s)
@@ -21,5 +21,3 @@ void print_rev(char *s)
 	}
 	_putchar('\n');
 }
-
-	
