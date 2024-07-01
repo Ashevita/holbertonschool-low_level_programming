@@ -1,10 +1,20 @@
-#include <stdio.h>
 #include "main.h"
+/**
+ * _memset - function
+ * @s: variable
+ * @b: variable
+ * @n: variable
+ * Return: char
+ */
 
-char *_memset(char *s, char *b, unsigned int n)
+char *_memset(char *s, char b, unsigned int n)
 {
+	char *p = s;
 
-	
-	return ;
+	while (n--)
+	{
+		*p++ = b;
+	}
+
+	return (s);
 }
-
