@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _strspn - function
- * @s: pointeur
- * @accept: pointeur
+ *_strspn - function
+ *@s: pointeur
+ *@accept: pointeur
  *Return: int
  */
 
