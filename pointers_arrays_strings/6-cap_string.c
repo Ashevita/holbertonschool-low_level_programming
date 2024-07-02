@@ -1,4 +1,10 @@
 #include "main.h"
+/**
+ * cap_string - function
+ * @str: variable
+ *
+ * Return: char
+ */
 
 char *cap_string(char *str)
 {
