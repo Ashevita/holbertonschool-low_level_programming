@@ -1,4 +1,9 @@
 #include "main.h"
+/**
+ * _puts_recursion - function
+ * @s: variable
+ * Return: rien
+ */
 
 void _puts_recursion(char *s)
 {
