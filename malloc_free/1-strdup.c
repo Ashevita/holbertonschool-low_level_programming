@@ -1,6 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+/**
+ * _strdup - function
+ * @str: variable
+ * Return: char
+ */
 
 char *_strdup(char *str)
 {
