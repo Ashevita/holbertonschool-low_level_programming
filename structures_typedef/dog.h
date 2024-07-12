@@ -10,8 +10,8 @@
 
 struct dog
 {
-	char *name;
-	float age;
-	char *owner;
+	char *name; /* Nom du chien */
+	float age; /* age du chien */
+	char *owner; /* Propietaire du chien */
 };
-#endif
+#endif /* DOG_H */
