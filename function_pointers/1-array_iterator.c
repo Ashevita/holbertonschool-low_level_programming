@@ -1,5 +1,10 @@
 #include <stdio.h>
-
+/**
+ * array_iterator - function
+ * @array: pointers
+ * @size: variable
+ * @action: variable
+ */
 
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
