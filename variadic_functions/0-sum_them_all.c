@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <stdarg.h>
 #include "variadic_functions.h"
+/**
+ * sum_them_all - function
+ * @n: variable const
+ * Return: char
+ */
 
 int sum_them_all(const unsigned int n, ...)
 {
@@ -12,7 +17,7 @@ int sum_them_all(const unsigned int n, ...)
 	{
 		return (0);
 	}
-	
+
 	va_start(args, n);
 
 	for (i = 0; i < n; i++)
