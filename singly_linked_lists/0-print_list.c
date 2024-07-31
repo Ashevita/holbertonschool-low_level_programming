@@ -1,13 +1,17 @@
 #include "lists.h"
 #include <stdio.h>
 #include <stddef.h>
-
+/**
+ * print_list - Function for print a list
+ * @h: pointer
+ * Return: Return a count
+ */
 
 size_t print_list(const list_t *h)
 {
 	size_t count = 0;
 
-	while(h != NULL)
+	while (h != NULL)
 	{
 	if (h->str == NULL)
 	{
@@ -21,5 +25,5 @@ size_t print_list(const list_t *h)
 	count++;
 	}
 	return (count);
-	
+
 }
