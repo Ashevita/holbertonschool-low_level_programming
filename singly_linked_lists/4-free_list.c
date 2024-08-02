@@ -2,6 +2,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+/**
+ * free_list - function for free list
+ * @head: pointers
+ */
 
 void free_list(list_t *head)
 {
